@@ -1,18 +1,14 @@
-
+<script>
+	import Nav from './components/Nav.svelte';
+</script>
+<Nav />
 <section>
 	
-<div class="my-4">
-	<h1 class="text-center text-3xl font-bold">My wonderful blog</h1>
-</div>
-
-<a href="/about">go to about page</a>
-<a href="/something-else">go to something else</a>
-
+<h1>first navbar</h1>
 
 </section>
-
 <svelte:head>
-	<title>DadaHaus Portfolio</title>
+	<title>first navbar</title>
 	<meta name="description" content="portfolio" />
 </svelte:head>
 
