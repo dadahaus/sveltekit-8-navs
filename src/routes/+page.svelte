@@ -5,6 +5,9 @@
 	<h1 class="text-center text-3xl font-bold">My wonderful blog</h1>
 </div>
 
+<a href="/about">go to about page</a>
+<a href="/something-else">go to something else</a>
+
 
 </section>
 
