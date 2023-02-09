@@ -11,7 +11,7 @@
 		<div class="center_nav">
 		</div>
     <div class="right_nav">
-       <img src="src/assets/behance-2.svg" alt="logo" srcset=""> 
+      <img src="src/assets/behance-2.svg" alt="logo" srcset="">
       <img src="src/assets/mail-1.svg" alt="logo" srcset="">
       <img src="src/assets/dribbble.svg" alt="logo" srcset="">
   
@@ -22,18 +22,16 @@
 <style lang="scss">
 	nav {
 padding: 2rem 5rem 2rem 5rem;
-position: fixed;
-width: 100%;
 		ul {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
       gap: 5rem;
       .left_nav{
-        flex: auto;
+        flex-basis: 10%;
         img{
-          width: var(--nav-item);
-          height: var(--nav-item);
+          width: 3rem;
+          height: 3rem;
         }
       }
       .center_nav{
@@ -47,10 +45,9 @@ width: 100%;
         display: flex;
         justify-content: center;
         flex-basis: 10%;
-        gap: 1rem;
         img{
-          width: var(--nav-item);
-          height: var(--nav-item);
+          width: 3rem;
+          height: 3rem;
         }
         
       }
