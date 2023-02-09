@@ -11,7 +11,7 @@
 		<div class="center_nav">
 		</div>
     <div class="right_nav">
-       <img src="src/assets/behance-2.svg" alt="logo" srcset=""> 
+      <img src="src/assets/behance-2.svg" alt="logo" srcset="">
       <img src="src/assets/mail-1.svg" alt="logo" srcset="">
       <img src="src/assets/dribbble.svg" alt="logo" srcset="">
   
@@ -28,10 +28,10 @@ padding: 2rem 5rem 2rem 5rem;
 			justify-content: space-between;
       gap: 5rem;
       .left_nav{
-        flex: auto;
+        flex-basis: 10%;
         img{
-          width: var(--nav-item);
-          height: var(--nav-item);
+          width: 3rem;
+          height: 3rem;
         }
       }
       .center_nav{
@@ -45,10 +45,9 @@ padding: 2rem 5rem 2rem 5rem;
         display: flex;
         justify-content: center;
         flex-basis: 10%;
-        gap: 1rem;
         img{
-          width: var(--nav-item);
-          height: var(--nav-item);
+          width: 3rem;
+          height: 3rem;
         }
         
       }

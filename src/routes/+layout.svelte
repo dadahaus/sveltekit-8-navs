@@ -1,19 +1,21 @@
 <script>
 	import '../app.postcss';
-	import Header from './Header.svelte';
-	import './styles.css';
+
+	// import './styles.css';
+	import '../dist/style.css';
+	import Footer from './components/Footer.svelte';
+
 </script>
 
 <div class="app">
-	<header />
 
 	<main>
 		<slot />
 	</main>
-
-	<footer>
-		<h1>this is the footer</h1>
-	</footer>
+	
+	<Footer>
+		<slot />
+	</Footer>
 </div>
 
 <style>
