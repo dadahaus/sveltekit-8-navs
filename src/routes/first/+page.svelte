@@ -4,9 +4,6 @@
 
 <First_nav />
 
-<section>
-	<h1>this is the first nav</h1>
-</section>
 
 <svelte:head>
 	<title>First nav</title>
