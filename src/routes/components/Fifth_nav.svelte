@@ -2,55 +2,46 @@
 	import { page } from '$app/stores';
 </script>
 
+<h1>hi hi</h1>
 <nav>
 	<ul>
-    <div class="left_nav">
-      <a href="/"> <img src="src/assets/dribbble.svg" alt="logo" srcset=""> </a>
-
-    </div>
-		<div class="center_nav">
-		</div>
-    <div class="right_nav">
-      <img src="src/assets/behance-2.svg" alt="logo" srcset="">
-      <img src="src/assets/mail-1.svg" alt="logo" srcset="">
-      <img src="src/assets/dribbble.svg" alt="logo" srcset="">
-  
-    </div>
+		<a href="http://" class="left_nav"> menu </a>
+		<a href="http://" class="center_nav"> work </a>
+		<a href="http://" class="right_nav"> us </a>
 	</ul>
 </nav>
 
 <style lang="scss">
 	nav {
-padding: 2rem 5rem 2rem 5rem;
+		padding: 2rem 5rem 2rem 5rem;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		text-transform: uppercase;
+		font-weight: 700;
+		display: flex;
+		justify-content: center;
 		ul {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
-      gap: 5rem;
-      .left_nav{
-        flex-basis: 10%;
-        img{
-          width: 3rem;
-          height: 3rem;
-        }
-      }
-      .center_nav{
-        flex-basis:80%;
-        display: flex;
-        justify-content: space-evenly;
-        // text-transform: uppercase;
-        font-weight: 900;
-      }
-      .right_nav{
-        display: flex;
-        justify-content: center;
-        flex-basis: 10%;
-        img{
-          width: 3rem;
-          height: 3rem;
-        }
-        
-      }
+			& > * {
+				padding: 0.5rem 1rem 0.5rem 1rem;
+				border: solid white 0.1rem;
+				color: white;
+				min-width: 8ch;
+				display: grid;
+				place-content: center;
+			}
+			.left_nav {
+				border-right: none;
+				border-radius: 1rem 0 0 1rem;
+			}
+			.center_nav {
+			}
+			.right_nav {
+				border-left: none;
+				border-radius: 0 1rem 1rem 0;
+			}
 		}
 	}
 </style>
