@@ -5,7 +5,6 @@
 	// import './styles.css';
 	import '../scss/style.css';
 	import Footer from './components/Footer.svelte';
-	import Nav from './components/Nav.svelte';
 	import List from './components/List.svelte';
 </script>
 
@@ -15,7 +14,7 @@
 	<main>
 		<slot />
 	</main>
-<Nav />
+
 	
 	<Footer>
 		<slot />

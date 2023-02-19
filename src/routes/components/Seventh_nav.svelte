@@ -5,6 +5,9 @@
 <nav>
 	<ul>
 		<div class="right_nav">
+			<a href="http://"><li>work</li></a>
+			<a href="http://"><li>about</li></a>
+			<a href="http://"><li>contact</li></a>
 			<a href="/"> <img src="src/assets/dribbble.svg" alt="logo" srcset="" /> </a>
 		</div>
 	</ul>
@@ -23,14 +26,16 @@
 			align-items: center;
 			justify-content: space-between;
 			gap: 5rem;
-		
+
 			.right_nav {
 				display: flex;
+				align-items: center;
 				justify-content: flex-end;
-				flex:1;
+				flex: 1;
+				gap: 2rem;
 				img {
-					width: 3rem;
-					height: 3rem;
+					width: 4rem;
+					height: 4rem;
 				}
 			}
 		}

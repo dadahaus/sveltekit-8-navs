@@ -43,9 +43,9 @@
 			justify-content: space-between;
 			gap: 5rem;
 			.center_nav {
-        flex-basis: 80%;
+				flex-basis: 80%;
 				display: flex;
-        flex-flow: column;
+				flex-flow: column;
 				justify-content: space-evenly;
 				// text-transform: uppercase;
 				font-weight: 900;
@@ -80,8 +80,8 @@
 		.hamburger_options {
 			position: absolute;
 			top: 100%;
-      left: 0;
-      transform: translateX(-55%);
+			left: 0;
+			transform: translateX(-55%);
 			display: flex;
 			flex-direction: column;
 			gap: 2rem;
