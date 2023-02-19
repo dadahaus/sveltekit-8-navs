@@ -14,6 +14,13 @@
 
 
 <style lang="scss">
-
+	section{
+		width: 100%;
+		ul{
+			display: flex;
+			justify-content: space-evenly;
+			gap: 1rem;
+		}
+	}
 
 </style>

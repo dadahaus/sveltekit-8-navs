@@ -12,7 +12,7 @@
 	<meta name="description" content="portfolio" />
 </svelte:head>
 
-	<img src="src/assets/1.png" alt="image" srcset="" />
+<img src="src/assets/1.png" alt="image" srcset="" />
 
 
 
