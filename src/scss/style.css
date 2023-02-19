@@ -3,8 +3,13 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+<<<<<<< HEAD
   background: center/cover url("") rgb(255, 195, 195);
   color: hsla(0deg, 100%, 67%, 0.87);
+=======
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+>>>>>>> 3463c2a4597ac5cf8a02b438428273865e218084
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
