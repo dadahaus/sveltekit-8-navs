@@ -12,12 +12,9 @@
 	<meta name="description" content="portfolio" />
 </svelte:head>
 
-<section>
-	<List/>
-
 	<img src="src/assets/1.png" alt="image" srcset="" />
 
-</section>
+
 
 <style lang="scss">
 
