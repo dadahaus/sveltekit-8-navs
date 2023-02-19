@@ -26,16 +26,21 @@
 			text-transform: uppercase;
 			.left_nav {
 				flex-basis: 20%;
-				justify-content: flex-start;
 				img {
 					width: 3rem;
 					height: 3rem;
 				}
 			}
-		
+			.center_nav {
+				flex: auto;
+				display: flex;
+				justify-content: space-evenly;
+				text-transform: uppercase;
+				font-weight: 900;
+			}
 			.right_nav {
 				display: flex;
-				justify-content: flex-end;
+				justify-content: center;
 				flex-basis: 30%;
 				gap: 1rem;
 				img {

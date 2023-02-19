@@ -7,8 +7,9 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, .87);
+  // color-scheme: light dark;
+  background: center/ cover url("") rgb(255, 195, 195); 
+  color: hsla(0, 100%, 67%, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,14 +36,28 @@ body {
   // overflow: hidden;
 
   a {
-    color-scheme: light dark;
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
 
   }
 }
 
 section {
   height: 100vh;
-  padding: 3rem;
+  padding: 2rem;
   width: 100%;
 }
 footer {

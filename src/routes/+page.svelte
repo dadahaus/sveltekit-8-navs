@@ -1,29 +1,24 @@
 <script>
-	import Nav from './components/Nav.svelte';
+	// import Projects_1 from '/Projects_1.svelte';
+	// import Second from './components/Second.svelte';
+	// import Third from './components/Third.svelte';
+	// import Fourth from './components/Fourth.svelte';
+	// import Fifth from './components/Fifth.svelte';
+	import List from './components/List.svelte';
 </script>
-<Nav />
-<section>
-	
-<h1>first navbar</h1>
 
-</section>
 <svelte:head>
 	<title>first navbar</title>
 	<meta name="description" content="portfolio" />
 </svelte:head>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+<section>
+	<List/>
 
-	h1 {
-		width: 100%;
-	}
+	<img src="src/assets/1.png" alt="image" srcset="" />
 
-	
+</section>
+
+<style lang="scss">
+
 </style>
