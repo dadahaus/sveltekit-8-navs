@@ -6,24 +6,20 @@
 	import '../scss/style.css';
 	import Footer from './components/Footer.svelte';
 	import List from './components/List.svelte';
+	import Nav from './components/Nav.svelte';
 </script>
 
 <div class="app">
-
-<List/>
+	<Nav />
 	<main>
 		<slot />
 	</main>
+	<List />
 
-	
 	<Footer>
 		<slot />
 	</Footer>
 </div>
 
-<style>
-a{
-	color: inherit;
-
-}
+<style lang="scss">
 </style>
