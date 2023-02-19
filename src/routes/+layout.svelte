@@ -10,18 +10,16 @@
 </script>
 
 <div class="app">
-<Nav/>
-<List/>
+	<Nav />
 	<main>
 		<slot />
 	</main>
+	<List />
 
-	
 	<Footer>
 		<slot />
 	</Footer>
 </div>
 
 <style lang="scss">
-
 </style>

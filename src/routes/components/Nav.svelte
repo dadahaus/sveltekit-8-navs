@@ -5,7 +5,7 @@
 <nav>
 	<ul>
 		<div class="left_nav">
-			<li><a href="http://">home</a></li>
+			<li><a href="/">home</a></li>
 		</div>
 		<div class="right_nav">
 			<li><a href="http://">there</a></li>

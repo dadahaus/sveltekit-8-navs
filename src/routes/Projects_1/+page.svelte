@@ -7,9 +7,8 @@
 	<meta name="description" content="first" />
 </svelte:head>
 
-<section>
-	<h1>hello</h1>
-</section>
+<img src="src/assets/1.png" alt="image" srcset="" />
+
 
 <style lang="scss">
 
